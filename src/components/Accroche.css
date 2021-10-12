@@ -1,0 +1,35 @@
+.accroche{
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items:center;
+}
+
+.accrocheContainer{
+    display : flex;
+    justify-content: center;
+    font-family: 'Crimson Pro', serif;
+    font-size: 15px;
+    font-weight: bold;
+    color:rgb(5, 5, 5);
+    background-color:rgba(240, 248, 255, 0.705);
+    margin:5% 20%
+}
+.accrocheMainTitle{
+    font-family: 'Fleur De Leah', cursive;
+    font-weight: 700;
+    font-size: 80px;
+    text-shadow:1px 1px 2px rgb(240, 184, 116);
+    margin-bottom: 20px;
+}
+.accrocheSubtitle{
+    margin:0px 0px 66px 0px;
+}
+
+.accrocheArticle{
+    display : flex;
+    justify-content: center;
+    margin : 10px 10% 10% ;
+    color:rgb(95, 95, 95);
+    text-justify : inter-word;
+}
