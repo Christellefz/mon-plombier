@@ -8,14 +8,17 @@
 .accrocheContainer{
     display : flex;
     justify-content: center;
+    flex-direction: column;
     font-family: 'Crimson Pro', serif;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
     color:rgb(5, 5, 5);
     background-color:rgba(240, 248, 255, 0.705);
     margin:5% 20%
 }
 .accrocheMainTitle{
+    display: flex;
+    align-items: center;
     font-family: 'Fleur De Leah', cursive;
     font-weight: 700;
     font-size: 80px;
@@ -24,6 +27,11 @@
 }
 .accrocheSubtitle{
     margin:0px 0px 66px 0px;
+}
+.services{
+display: flex;
+justify-content: space-evenly;
+color: rgb(75, 64, 64);
 }
 
 .accrocheArticle{

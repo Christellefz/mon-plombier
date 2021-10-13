@@ -6,7 +6,7 @@ const Coordonnees = () => {
   return (
     <div className='coordonnees'>
       <div className='adresse'>
-        <FiMapPin /> 42 Av de l'Europe -30300 Beaucaire
+        <FiMapPin /> 42 Av de l`&apos;`Europe -30300 Beaucaire
       </div>
       <div className='telephone'>
         <FiPhone /> 01 23 45 67 89
