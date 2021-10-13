@@ -1,6 +1,6 @@
 import './App.css'
 
-import { Route, Switch } from 'react-router-dom'
+import { Route, Switch, withRouter } from 'react-router-dom'
 
 import About from './screens/About.js'
 import Accroche from './components/Accroche.js'
@@ -10,17 +10,16 @@ import Logo from './components/Logo.js'
 import Realisations from './screens/Realisations.js'
 import Urgence from './screens/Urgence.js'
 
-function App() {
+const App = withRouter(({ location }) => {
   return (
     <div className='App'>
       {location.pathname !== '/' && <Logo />}
       <div className='bgContainer'></div>
-      <Logo />
-      <Coordonnees />
-      <Accroche />
       <Switch>
         <Route exact path='/'>
-          <App />
+          <Logo />
+          <Coordonnees />
+          <Accroche />
         </Route>
         <Route path='/about'>
           <About />
@@ -37,6 +36,6 @@ function App() {
       </Switch>
     </div>
   )
-}
+})
 
 export default App
