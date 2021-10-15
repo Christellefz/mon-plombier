@@ -1,0 +1,67 @@
+.aboutContainer{
+  display : flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Crimson Pro', serif;
+  font-size: 20px;
+  font-weight: bold;
+  color:rgb(5, 5, 5);
+  background-color:rgba(240, 248, 255, 0.705);
+  margin:5% 15%
+}
+.imgTextBloc1{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  margin-right:5% ;
+  margin-bottom:5% ;
+  align-items: center;
+}
+#evier{
+  height:300px;
+  width:auto;
+  position:relative;
+  left: 100px;
+  
+}
+#aboutSectionText{
+  display : flex;
+  justify-content: center;
+  color:rgb(95, 95, 95);
+  text-justify : inter-word;
+  margin:0% 5% 0% 5%;
+}
+#aboutSubtitle1{
+margin-left: 3%;
+margin-top: 0px;
+}
+.aboutMainTitle1{
+  margin-left:2%;
+}
+
+.imgTextBloc2{
+  display:flex;
+  flex-direction:row-reverse;
+  justify-content:space-around;
+  margin:5% ;
+  align-items: center;
+}
+#robinet{
+  height:300px;
+  width:auto;
+  position:relative;
+  left: -100px;
+}
+
+#aboutSubtitle2{
+margin-left: 3%;
+margin-top: 0px;
+}
+.aboutMainTitle2{
+  margin-right:2%;
+  text-align:end;
+}
+#aboutSubtitle2{
+  margin-right: 3%;
+  text-align:end;
+}
