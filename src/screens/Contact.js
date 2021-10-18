@@ -45,7 +45,7 @@ const Contact = () => {
   }
 
   return (
-    <div className='contact'>
+    <div className='contactContainer'>
       <form className='contact-form'>
         <h2>Contactez-nous</h2>
         <div className='form-content'>
@@ -75,7 +75,7 @@ const Contact = () => {
             value={phone}
           />
           <div className='email-content'>
-            <label id='not-mail'>Email non valide</label>
+            <label id='not-mail'></label>
             <input
               type='mail'
               id='email'
@@ -103,7 +103,7 @@ const Contact = () => {
 
         <div className='form-message'></div>
       </form>
-      <div className='blockform'>
+      <div className='TelMail'>
         {/* <Map /> */}
         <p>Tel: 06 66 36 42 27</p>
         <p>Mail: christellefz@yahoo.fr</p>

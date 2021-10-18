@@ -1,0 +1,37 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin: 0 0 100px; /* bottom = footer height */
+}
+.footerContainer{
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  position: absolute;
+  bottom: 10px;
+  justify-content: space-around;
+  background-color:rgba(255, 228, 196, 0.698);
+  text-decoration: none;
+}
+.footerList{
+  min-width:40vw;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 10px;
+}
+.footerItem{
+  font-family: 'Crimson Pro', serif;
+  font-size: 20px;
+  font-weight: bold;
+  color:rgb(95, 95, 95);
+  text-decoration: underline;
+}
+.footerItem:hover{
+  color:rgba(230, 130, 73, 0.877);
+  text-decoration: overline;
+}
