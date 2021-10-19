@@ -2,7 +2,6 @@
     min-width:40vw;
     display: flex;
     justify-content: space-evenly;
-    margin-left: 30%;
     list-style: none;
     position: -webkit-sticky;
     position: sticky;
