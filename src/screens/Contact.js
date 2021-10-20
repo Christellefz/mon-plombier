@@ -2,6 +2,7 @@ import './Contact.css'
 
 import React, { useState } from 'react'
 
+import Map from '../components/Map.js'
 import emailjs from 'emailjs-com'
 import { init } from 'emailjs-com'
 
@@ -45,69 +46,69 @@ const Contact = () => {
   }
 
   return (
-    <div className='contactContainer'>
-      <form className='contact-form'>
-        <h2>Contactez-nous</h2>
-        <div className='form-content'>
-          <input
-            type='text'
-            id='name'
-            name='name'
-            onChange={e => setName(e.target.value)}
-            placeholder='nom *'
-            value={name}
-            autoComplete='off'
-          />
-          <input
-            type='text'
-            id='company'
-            name='company'
-            onChange={e => setCompany(e.target.value)}
-            placeholder='société'
-            value={company}
-          />
-          <input
-            type='text'
-            id='phone'
-            name='phone'
-            onChange={e => setPhone(e.target.value)}
-            placeholder='téléphone'
-            value={phone}
-          />
-          <div className='email-content'>
-            <label id='not-mail'></label>
+    <div className='contactMapContainer'>
+      <div className='contactContainer'>
+        <form className='contact-form'>
+          <h2>Contactez-nous</h2>
+          <div className='form-content'>
             <input
-              type='mail'
-              id='email'
-              name='email'
-              onChange={e => setEmail(e.target.value)}
-              placeholder='email *'
-              value={email}
+              type='text'
+              id='name'
+              name='name'
+              onChange={e => setName(e.target.value)}
+              placeholder='nom *'
+              value={name}
               autoComplete='off'
             />
+            <input
+              type='text'
+              id='company'
+              name='company'
+              onChange={e => setCompany(e.target.value)}
+              placeholder='société'
+              value={company}
+            />
+            <input
+              type='text'
+              id='phone'
+              name='phone'
+              onChange={e => setPhone(e.target.value)}
+              placeholder='téléphone'
+              value={phone}
+            />
+            <div className='email-content'>
+              <label id='not-mail'></label>
+              <input
+                type='mail'
+                id='email'
+                name='email'
+                onChange={e => setEmail(e.target.value)}
+                placeholder='email *'
+                value={email}
+                autoComplete='off'
+              />
+            </div>
+            <textarea
+              id='message'
+              name='message'
+              onChange={e => setMessage(e.target.value)}
+              placeholder='message *'
+              value={message}
+            />
           </div>
-          <textarea
-            id='message'
-            name='message'
-            onChange={e => setMessage(e.target.value)}
-            placeholder='message *'
-            value={message}
+          <input
+            className='button'
+            type='button'
+            value='Envoyer'
+            onClick={handleSubmit}
           />
+        </form>
+        <div className='telMail, text-pop-up-top'>
+          <p>Tel: 06 66 36 42 27</p>
+          <p>Mail: christellefz@yahoo.fr</p>
         </div>
-        <input
-          className='button'
-          type='button'
-          value='Envoyer'
-          onClick={handleSubmit}
-        />
-
-        <div className='form-message'></div>
-      </form>
-      <div className='TelMail'>
-        {/* <Map /> */}
-        <p>Tel: 06 66 36 42 27</p>
-        <p>Mail: christellefz@yahoo.fr</p>
       </div>
+      <Map />
     </div>
   )
 }

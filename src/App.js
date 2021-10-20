@@ -8,9 +8,8 @@ import Contact from './screens/Contact.js'
 import Coordonnees from './components/Coordonnees.js'
 import Footer from './components/Footer.js'
 import Logo from './components/Logo.js'
-import Map from './components/Map.js'
 import Realisations from './screens/Realisations.js'
-import Urgence from './screens/Urgence.js'
+import Tarifs from './screens/Tarifs.js'
 
 const App = withRouter(({ location }) => {
   return (
@@ -33,10 +32,9 @@ const App = withRouter(({ location }) => {
         </Route>
         <Route exact path='/contact'>
           <Contact />
-          <Map />
         </Route>
-        <Route exact path='/urgence'>
-          <Urgence />
+        <Route exact path='/tarifs'>
+          <Tarifs />
         </Route>
       </Switch>
     </div>

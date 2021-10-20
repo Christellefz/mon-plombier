@@ -18,8 +18,8 @@ const Navbar = () => {
         <Link className='link' to='/contact'>
           <li className='navItem'>Contact</li>
         </Link>
-        <Link className='link' to='/urgence'>
-          <li className='navItem'>Urgence</li>
+        <Link className='link' to='/tarifs'>
+          <li className='navItem'>Tarifs</li>
         </Link>
       </ul>
     </nav>
