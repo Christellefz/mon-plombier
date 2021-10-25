@@ -13,19 +13,21 @@ const Footer = () => {
   }
 
   return (
-    <div className='footerContainer'>
-       {visible ? <Modal visible={visible} /> : null}
-      <ul className='footerList'>
-        <li className='footerItem'>mentions légales</li>
-        <li className='footerItem'>cgu</li>
-        <li className='footerItem' onClick={showHideModal}>
-          <FaFacebookF />
-        </li>
-        <li className='footerItem' onClick={showHideModal}>
-          <FaInstagram />
-        </li>
-      </ul>
-    </div>
+    <>
+      {visible ? <Modal visible={visible} /> : null}
+      <div className='footerContainer'>
+        <ul className='footerList'>
+          <li className='footerItem'>mentions légales</li>
+          <li className='footerItem'>cgu</li>
+          <li className='footerItem' onClick={showHideModal}>
+            <FaFacebookF />
+          </li>
+          <li className='footerItem' onClick={showHideModal}>
+            <FaInstagram />
+          </li>
+        </ul>
+      </div>
+    </>
   )
 }
 export default Footer

@@ -1,9 +1,9 @@
 import './Modal.css'
 
-const Modal = props => {
+const Modal = () => {
   return (
-    <div className='modalContainer'>
-      <p> Ici un lien vers votre compte</p>
+    <div>
+      <span className='modalContainer'> Ici un lien vers votre compte</span>
     </div>
   )
 }

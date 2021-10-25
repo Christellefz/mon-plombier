@@ -106,9 +106,9 @@ const Contact = () => {
         <div className='telMail, text-pop-up-top'>
           <p>Tel: 06 66 36 42 27</p>
           <p>Mail: christellefz@yahoo.fr</p>
+      <Map />
         </div>
       </div>
-      <Map />
     </div>
   )
 }

@@ -13,7 +13,8 @@ const Map = () => {
   const location = { lat: 43.8073, lng: 4.6437 }
   const containerStyle = {
     width: '400px',
-    height: '400px'
+    height: '400px',
+    border: '2px solid  black'
   }
 
   const center = {

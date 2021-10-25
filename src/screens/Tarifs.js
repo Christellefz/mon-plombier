@@ -6,7 +6,6 @@ const Tarifs = () => {
       <table>
         <caption>Tarifs</caption>
         <thead>
-          Tarifs en vigueur au 01/2021
           <tr>
             <th>Intitulé</th>
             <th>Prix</th>

@@ -10,13 +10,18 @@
 }
 
 tr{
-  text-align: center;
+  text-align:justify;
   padding: 15px;
 }
 td{
   padding: 15px;
-  text-align: center;
+  text-align: start;
 }
 thead{
   text-align: center;
+}
+caption{
+  align-items: center;
+  font-size: 30px !important;
+  font-weight:900 !important;
 }
