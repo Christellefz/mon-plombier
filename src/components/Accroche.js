@@ -12,7 +12,7 @@ const Accroche = () => {
   return (
     <div className='accrocheContainer'>
       <section className='accroche'>
-        <h1 className='accrocheMainTitle'>Excellence Plomberie</h1>
+        <h1 className='accrocheMainTitle'>Excellence Sanitaire</h1>
         <h2 className='accrocheSubtitle'>
           Rapidité | Efficacité | Choix rafiné
         </h2>

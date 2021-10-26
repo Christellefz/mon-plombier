@@ -8,7 +8,7 @@
   background-color: rgba(255, 255, 255, 0.739);
   margin: 5% 15%;
   align-items: flex-end;
-  padding-bottom: 40px;
+  margin-bottom: 60px;
 }
 .form-content{
   display:flex;
@@ -58,14 +58,34 @@ textarea{
   align-items:center;
   width: 50%;
 }
-.text-pop-up-top {
-  -webkit-animation: text-pop-up-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-  animation: text-pop-up-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
 .telMail{
   display: block;
   justify-content: center;
   align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .contactContainer{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin: 5% 10%;
+    padding-bottom: 40px;
+  }
+  .telMail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-form{
+    width: 80%;
+    font-size: 20px;
+  }
+}
+.text-pop-up-top {
+  -webkit-animation: text-pop-up-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: text-pop-up-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 @-webkit-keyframes text-pop-up-top {
   0% {
@@ -102,10 +122,8 @@ textarea{
 
 p{
   font-family: 'Crimson Pro', serif;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
+  text-align: center;
   
-}
-thead{
-align-items: center;
 }

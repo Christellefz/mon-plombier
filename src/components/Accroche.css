@@ -37,7 +37,40 @@ color: rgb(75, 64, 64);
 .accrocheArticle{
     display : flex;
     justify-content: center;
-    margin : 10px 10% 10% ;
+    margin : 10px 10% 5% ;
     color:rgb(95, 95, 95);
     text-justify : inter-word;
+}
+@media screen and (max-width: 768px) {
+    .accrocheMainTitle{
+        display: flex;
+        align-items: center;
+        font-family: 'Fleur De Leah', cursive;
+        font-weight: 700;
+        font-size: 80px;
+        text-shadow:1px 1px 2px rgb(240, 184, 116);
+        margin-bottom: 20px;
+    }
+    .accrocheContainer{
+        display : flex;
+        justify-content: center;
+        flex-direction: column;
+        font-family: 'Crimson Pro', serif;
+        font-size: 20px;
+        font-weight: bold;
+        color:rgb(5, 5, 5);
+        background-color:rgba(240, 248, 255, 0.705);
+        margin:5% 10%
+    }
+    .accroche{
+        display:flex;
+        justify-content:center;
+        flex-direction: column;
+        align-items:center;
+    }
+    .services{
+     flex-wrap: wrap;
+     justify-content:space-evenly;
+     padding:25px
+        }
 }

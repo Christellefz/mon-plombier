@@ -13,12 +13,28 @@
     font-weight: bold;
     color:rgb(95, 95, 95);
     text-decoration: underline;
-  
 }
 .navItem:hover{
     color:rgba(230, 130, 73, 0.877);
     text-decoration: overline;
 }
- .link{
+.link{
     text-decoration: none;
- }
+}
+@media screen and (max-width:768px) {
+    .navbar{
+        min-width:50vw;
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 20px;
+    }
+}
+@media screen and (max-width:760px){
+    .navbar{
+        display: none;
+    } 
+}
+
