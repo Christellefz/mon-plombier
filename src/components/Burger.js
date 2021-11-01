@@ -15,13 +15,16 @@ const Burger = () => {
     <div className='burgerContainer'>
       <Menu noOverlay onStateChange={toggleMenu}>
         <a className='menu-item' href='/'>
-          Home
+          Accueil
         </a>
         <a className='menu-item' href='/about'>
-          About
+          A propos
         </a>
         <a className='menu-item' href='/contact'>
           Contact
+        </a>
+        <a className='menu-item' href='/tarifs'>
+          Tarifs
         </a>
       </Menu>
     </div>

@@ -76,18 +76,16 @@ const Contact = () => {
               placeholder='téléphone'
               value={phone}
             />
-            <div className='email-content'>
-              <label id='not-mail'></label>
-              <input
-                type='mail'
-                id='email'
-                name='email'
-                onChange={e => setEmail(e.target.value)}
-                placeholder='email *'
-                value={email}
-                autoComplete='off'
-              />
-            </div>
+            <label id='not-mail'></label>
+            <input
+              type='mail'
+              id='email'
+              name='email'
+              onChange={e => setEmail(e.target.value)}
+              placeholder='email *'
+              value={email}
+              autoComplete='off'
+            />
             <textarea
               id='message'
               name='message'

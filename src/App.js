@@ -12,7 +12,6 @@ import Realisations from './screens/Realisations.js'
 import Tarifs from './screens/Tarifs.js'
 
 const App = withRouter(({ location }) => {
-
   return (
     <div className='App'>
       {location.pathname !== '/' && <Logo />}

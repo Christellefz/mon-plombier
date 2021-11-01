@@ -20,8 +20,22 @@
 @media screen and (max-width:768px) {
     .navContainer{
         flex-wrap: nowrap;
-        justify-content: space-evenly;
+        justify-content: space-around;
 
 
     }
+}
+@media screen and (max-width:760px){
+  .navContainer{
+    width:100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    background-color:rgba(255, 228, 196, 0.698);
+    text-decoration: none;
+  }
+  .logo{
+      padding-left: 0px;
+      padding-right: 10px;
+  }
 }

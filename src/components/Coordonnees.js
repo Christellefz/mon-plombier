@@ -12,7 +12,7 @@ const Coordonnees = () => {
         <FiPhone /> 01 23 45 67 89
       </div>
       <div className='mail'>
-        <FiMail /> excel.plomb@artisan.com
+        <FiMail /> excel.sanit@artisan.com
       </div>
     </div>
   )

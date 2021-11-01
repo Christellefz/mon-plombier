@@ -32,6 +32,7 @@
 display: flex;
 justify-content: space-evenly;
 color: rgb(75, 64, 64);
+margin-bottom:50px;
 }
 
 .accrocheArticle{
@@ -45,11 +46,15 @@ color: rgb(75, 64, 64);
     .accrocheMainTitle{
         display: flex;
         align-items: center;
+        text-align: center;
         font-family: 'Fleur De Leah', cursive;
         font-weight: 700;
-        font-size: 80px;
+        font-size: 50px;
         text-shadow:1px 1px 2px rgb(240, 184, 116);
         margin-bottom: 20px;
+    }
+    .accrocheSubtitle{
+        font-size: 18px;
     }
     .accrocheContainer{
         display : flex;
@@ -71,6 +76,10 @@ color: rgb(75, 64, 64);
     .services{
      flex-wrap: wrap;
      justify-content:space-evenly;
-     padding:25px
+     padding:25px;
+     margin-bottom:50px;
+        }
+        .serviceItem{
+            padding:5px;
         }
 }

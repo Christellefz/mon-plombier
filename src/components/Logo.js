@@ -14,8 +14,8 @@ const Logo = () => {
   return (
     <nav className='navContainer'>
       <div className='logo'> Excellence Sanitaire</div>
-      <Burger />
       <Navbar />
+      <Burger />
     </nav>
   )
 }

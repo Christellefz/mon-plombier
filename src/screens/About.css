@@ -67,7 +67,7 @@ margin-top: 0px;
   margin-right: 3%;
   text-align:end;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1250px){
   .aboutContainer{
     display : flex;
     justify-content: center;

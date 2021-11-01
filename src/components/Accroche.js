@@ -25,22 +25,22 @@ const Accroche = () => {
         </article>
       </section>
       <section className='services'>
-        <span className='devis'>
+        <span className='serviceItem'>
           <FaFileInvoiceDollar /> <strong>Devis Gratuit</strong>
         </span>
-        <span className='conseil'>
+        <span className='serviceItem'>
           <FaComments />
           <strong> Conseils personalisés</strong>
         </span>
-        <span className='rapidité'>
+        <span className='serviceItem'>
           <FaStopwatch />
-          <strong> Dépannage en 30 Minutes</strong>
+          <strong> Dépannage en 30 Mins</strong>
         </span>
-        <span className='disponibilité'>
+        <span className='serviceItem'>
           <FaRegCalendarAlt />
           <strong> 7 / 24</strong>
         </span>
-        <span className='interlocuteur'>
+        <span className='serviceItem'>
           <FaUserCheck />
           <strong>Interlocuteur Unique</strong>
         </span>
